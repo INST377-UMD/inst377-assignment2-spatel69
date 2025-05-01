@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <title>INST377 Assignment 2</title>
+    <link rel="stylesheet" href="assignment_2.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+    <script src = "home.js" defer> </script>
+</head>
+
+<body>
+
+    <nav id="nav">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="stocks.html">Stocks</a></li>
+            <li><a href="dogs.html">Dogs</a></li>
+        </ul>
+    </nav>
+
+    <h1>These are some different activities we can try!</h1>
+    
+    <div class = "button-placement">
+
+        <a href = "stocks.html"> <button class = "button-54" role = "button"> <span class = "text"> Stocks </span> </button></a>
+        <a href = "dogs.html"> <button class = "button-54" role = "button"> <span class = "text"> Dogs </span> </button> </a>
+
+    </div>
+
+    <div class="content-box-quote">
+
+        <p><b>Here is a Random Quote</b></p> 
+
+        <p id="RandomQuote"> </p>
+
+    </div>
+
+    <div class = "content-box-audio">
+        <h2>Navigate Around the Site Using Audio</h2>
+    
+        <p>Ensure that your microphone is enabled</p>
+
+        <ul>
+            <li><b>If you want to go to a different page say:</b> "Navigate to [page name]"</li> <br>
+            <li><b>If you want to change the color of the page say:</b> "Change the color to [color]"</li> <br>
+            <li><b>If you want to say Hello back to yourself say:</b> "Hello"</li>
+        </ul>
+
+        <button onclick = "listening()"> Turn on Listening </button>
+        <button onclick = "notlistening()"> Turn off Listening </button>
+    </div>
+
+
+
+</body>
+
+
+
+</html>
