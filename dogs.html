@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <title>INST377 Assignment 2</title>
+    <link rel="stylesheet" href="assignment_2.css">
+    <script src= "dogs.js" defer> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simple-slider/1.0.0/simpleslider.min.js"> </script>
+    
+</head>
+
+<body>
+
+    <nav id="nav">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="stocks.html">Stocks</a></li>
+            <li><a href="dogs.html">Dogs</a></li>
+        </ul>
+    </nav>
+
+    <h1>Welcome to the Dogs Page!</h1>
+
+    <div id = "carousel" style = "width: 100%; height: 100%" data-simple-slider> 
+
+    </div>
+
+    <div id ="DogButton"> </div>
+
+    <div id="DogInfo" style="display: none;"> 
+       <h3 id = "Name"></h3> <br>
+       <p id = "Description"></p> <br>
+       <p id = "MinLife"></p> <br>
+       <p id = "MaxLife"></p>
+    </div>
+    
+  
+
+    <div class = "content-box-audio">
+      <h2>Navigate Around the Site Using Audio</h2>
+  
+      <p>Ensure that your microphone is enabled</p>
+
+      <ul>
+          <li><b>If you want to see Info about a dog breed say:</b> "Load dog breed [dog breed name]"</li> <br>
+          <li><b>If you want to go to a different page say:</b> "Navigate to [page name]"</li> <br>
+          <li><b>If you want to change the color of the page say:</b> "Change the color to [color]"</li> <br>
+          <li><b>If you want to say Hello back to yourself say:</b> "Hello"</li>
+      </ul>
+
+      <button onclick = "listening()"> Turn on Listening </button>
+      <button onclick = "notlistening()"> Turn off Listening </button>
+    </div>
+
+
+</body>
+
+
+
+</html>
